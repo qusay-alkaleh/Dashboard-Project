@@ -15,7 +15,7 @@ import { App as AntdApp } from 'antd';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-  console.log('Hello World!');
+  console.log('Hello World!')
   return (
     <BrowserRouter>
       <GitHubBanner />
