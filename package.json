@@ -5,7 +5,7 @@
   "type": "module",
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
-    "@refinedev/antd": "^5.37.4",
+    "@refinedev/antd": "^5.42.0",
     "@refinedev/cli": "^2.16.21",
     "@refinedev/core": "^4.47.1",
     "@refinedev/devtools": "^1.1.32",
@@ -37,7 +37,7 @@
     "eslint-plugin-react-refresh": "^0.3.4",
     "jest": "^29.7.0",
     "prettier": "^3.3.3",
-    "typescript": "^5.1.6",
+    "typescript": "^5.5.4",
     "vite": "^4.3.1",
     "vite-tsconfig-paths": "^4.3.2"
   },
@@ -52,7 +52,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "type-check": "tsc --noEmit",
     "test": "jest",
-    "check-all": "npm run lint && npm run type-check && npm test && npm run prettier-check"
+    "check-all": "npm run lint && npm run type-check && npm test && npm run prettier-check && npm run prettier-format"
   },
   "browserslist": {
     "production": [
